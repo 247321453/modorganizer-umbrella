@@ -118,8 +118,8 @@ config = {
     'qt_vc_version': '15.0',
     'vc_platformtoolset': 'v141',
     'vc_TargetPlatformVersion': '10.0.26624.0',
-    'vc_version': '16.0',
-    'vc_version_for_boost': '14.2',
+    'vc_version': '15.0',
+    'vc_version_for_boost': '14.1',
     'WixToolset_version': '311',
     'zlib_version': '1.2.11',
 
