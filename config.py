@@ -60,7 +60,7 @@ config = {
     'Release_Build': False,  #Used to override certain versions in umbrella when doing an officail release
 
                             #eg. Using the usvfs_version below instead of the Main_Branch config
-    'vc_CustomInstallPath': '',  # If you installed VC to a custom location put the full path here
+    'vc_CustomInstallPath': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community',  # If you installed VC to a custom location put the full path here
                                  # eg.  'E:\Microsoft Visual Studio 14.0'
     'qt_CustomInstallPath': r'C:\\Qt',  # If you installed QT to a custom location put the full path here
                                   # eg.  r'Z:\Dev\QT' if you have Z:\Dev\QT\5.10.0\msvc2017_64\bin\qmake.exe
