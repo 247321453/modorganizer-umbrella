@@ -117,7 +117,7 @@ config = {
     'qt_version_minor_appveyor': '2',
     'qt_vc_version': '15.0',
     'vc_platformtoolset': 'v141',
-    'vc_TargetPlatformVersion': '10.0.26624.0',
+    'vc_TargetPlatformVersion': '10.0.14393.0',
     'vc_version': '15.0',
     'vc_version_for_boost': '14.1',
     'WixToolset_version': '311',
