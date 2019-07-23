@@ -62,7 +62,7 @@ config = {
                             #eg. Using the usvfs_version below instead of the Main_Branch config
     'vc_CustomInstallPath': '',  # If you installed VC to a custom location put the full path here
                                  # eg.  'E:\Microsoft Visual Studio 14.0'
-    'qt_CustomInstallPath': r'',  # If you installed QT to a custom location put the full path here
+    'qt_CustomInstallPath': r'C:\\Qt\\5.12.2',  # If you installed QT to a custom location put the full path here
                                   # eg.  r'Z:\Dev\QT' if you have Z:\Dev\QT\5.10.0\msvc2017_64\bin\qmake.exe
                                   # The r before the start of the string prevents backslashes being treated as special characters
     'build_type': "RelWithDebInfo", # build type.  other possible types could be Debug.  not tested
