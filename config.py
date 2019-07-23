@@ -60,7 +60,7 @@ config = {
     'Release_Build': False,  #Used to override certain versions in umbrella when doing an officail release
 
                             #eg. Using the usvfs_version below instead of the Main_Branch config
-    'vc_CustomInstallPath': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community',  # If you installed VC to a custom location put the full path here
+    'vc_CustomInstallPath': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community',  # If you installed VC to a custom location put the full path here
                                  # eg.  'E:\Microsoft Visual Studio 14.0'
     'qt_CustomInstallPath': r'C:\\Qt',  # If you installed QT to a custom location put the full path here
                                   # eg.  r'Z:\Dev\QT' if you have Z:\Dev\QT\5.10.0\msvc2017_64\bin\qmake.exe
@@ -117,7 +117,7 @@ config = {
     'qt_version_appveyor': '5.12',
     'qt_version_minor_appveyor': '2',
     'qt_vc_version': '15.0',
-    'vc_platformtoolset': 'v142',
+    'vc_platformtoolset': 'v141',
     'vc_TargetPlatformVersion': '10.0.17763.0',
     'vc_version': '16.0',
     'vc_version_for_boost': '14.2',
