@@ -70,4 +70,4 @@ usvfs \
                             None, None, None, usvfs_environment())
             .depend("boost" + suffix)
             .depend("GTest" + suffix)
-            .depend(github.Source(config['Main_Author'], "usvfs", usvfs_version)))
+            .depend(github.Source('247321453', "usvfs", usvfs_version)))
