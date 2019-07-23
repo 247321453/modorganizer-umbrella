@@ -155,7 +155,7 @@ config['paths'] = {
     'install': "{base_dir}\\{install_dir}",
     # 'graphviz': path_or_default("dot.exe", [["Graphviz2.38", "bin"]]),
     'cmake': path_or_default("cmake.exe", [["CMake", "bin"]]),
-    'jom': path_or_default("jom.exe", [["Qt", "Tools", "QtCreator", "bin"]]),
+    'jom': path_or_default("jom.exe", [["Tools", "QtCreator", "bin"]]),
     'git': path_or_default("git.exe", [["Git", "bin"]]),
     'perl': path_or_default("perl.exe", [["StrawberryPerl", "perl", "bin"], ["Strawberry", "perl", "bin"]]),
     #'svn': path_or_default("svn.exe", [["SlikSvn", "bin"]]),
