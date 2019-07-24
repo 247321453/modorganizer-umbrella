@@ -113,8 +113,8 @@ config = {
     'sip_dev_version': '', # leave empty for a standard release
     'qt_version': '5.12',
     'qt_version_minor': '4',
-    'qt_version_appveyor': '5.12',
-    'qt_version_minor_appveyor': '2',
+    'qt_version_appveyor': '5.11',
+    'qt_version_minor_appveyor': '',
     'qt_vc_version': '15.0',
     'vc_platformtoolset': 'v141',
     'vc_TargetPlatformVersion': '10.0.14393.0',
