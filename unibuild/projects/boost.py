@@ -62,7 +62,11 @@ def patchboost(context):
 
 if config.get('binary_boost', True):
     boost_prepare = Project("boost_prepare")
-    boost = Project("boost").depend(urldownload.URLDownload("https://github.com/247321453/modorganizer-umbrella/releases/download/1.1/boost_prebuilt_{}.7z"
+    if vc_version == '14.1':
+        boost = Project("boost").depend(urldownload.URLDownload("https://github.com/247321453/modorganizer-umbrella/releases/download/1.2-141/boost_prebuilt_{}-141.7z"
+                                                        .format(boost_tag_version.replace(".", "_"))).set_destination("boost_{}".format(boost_tag_version.replace(".", "_"))))
+    else:
+        boost = Project("boost").depend(urldownload.URLDownload("https://github.com/247321453/modorganizer-umbrella/releases/download/1.1/boost_prebuilt_{}.7z"
                                                         .format(boost_tag_version.replace(".", "_"))).set_destination("boost_{}".format(boost_tag_version.replace(".", "_"))))
     if config['architecture'] == 'x86_64':
         boost_stage = Patch.Copy(os.path.join("{}/lib{}-msvc-{}/lib/boost_python{}-vc{}-mt-{}-{}.dll"
