@@ -86,7 +86,7 @@ for author, git_path, path, branch, dependencies, Build in [
     (config['Main_Author'], "modorganizer-game_enderal", "game_enderal", config['Build_Branch'], ["Qt5", "modorganizer-uibase",
                                                                                          "modorganizer-game_gamebryo",
                                                                                          "modorganizer-game_features"], True),
-    (config['Main_Author'], "modorganizer-game_monsterhunterworld", "game_monsterhunterworld", config['Build_Branch'], ["Qt5", "modorganizer-uibase",
+    ('247321453', "modorganizer-game_monsterhunterworld", "game_monsterhunterworld", config['Build_Branch'], ["Qt5", "modorganizer-uibase",
                                                                                          "modorganizer-game_gamebryo",
                                                                                          "modorganizer-game_features"], True),
     (config['Main_Author'], "modorganizer-tool_inieditor", "tool_inieditor", config['Build_Branch'], ["Qt5", "modorganizer-uibase"], True),
